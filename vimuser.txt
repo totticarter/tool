@@ -1,0 +1,56 @@
+0: to head of line
+^: to head of line
+$: to tail of line
+g_: same as $
+bn and bp: when open several files at the same time, this two command can switch between these files
+w and e: to the head or end of the next word
+%: match brace
+# and *: match current word
+ye: copy from current char to the end of the word
+nfa: to nth of the char a in this line
+
+split
+:split
+:vssplit
+ctrl+w+dir(hijk)
+ctrl+w+_: max current screen
+ctrl+w++: increase current screen
+ctrl+w+-: descrease current screen
+ctrl+w+=: equal all screen
+ctrl+w+c: close split
+split when open files: vim -On files...
+		       vim -on files
+
+
+configuration
+vim /etc/vimrc
+set cursorline: highlight current line
+hi CursorLine  cterm=NONE   ctermbg=darkred ctermfg=white
+hi CursorColumn cterm=NONE ctermbg=darkred ctermfg=white
+hi Commnet ctermfg=blue
+
+
+gU: upper case
+gu:
+
+nJ: join next n line to lone line
++: to the head of next line
+-: to the head of previuse line
+
+ctrl+f: roll forward 
+ctrl+b: roll back
+ctrl+e: roll 
+crrl+y: roll
+
+
+nz<enter>: take n line to the top of screen
+H: move to top of the screen
+M: move to middle of the screen
+L: move to buttom of the screen
+
+
+replace
+:%s/orig/new/g
+:n,$s/orig/new/g
+
+
