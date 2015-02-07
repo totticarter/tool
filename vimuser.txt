@@ -1,7 +1,19 @@
+1.移动光标  
 0: to head of line
 ^: to head of line
 $: to tail of line
-g_: same as $
+g_: same as $  
+ctrl+f: roll forward 
+ctrl+b: roll back
+ctrl+e: roll 
+crrl+y: roll
++: to the head of next line
+-: to the head of previuse line
+nz<enter>: take n line to the top of screen
+H: move to top of the screen
+M: move to middle of the screen
+L: move to buttom of the screen
+
 bn and bp: when open several files at the same time, this two command can switch between these files
 w and e: to the head or end of the next word
 %: match brace
@@ -9,7 +21,7 @@ w and e: to the head or end of the next word
 ye: copy from current char to the end of the word
 nfa: to nth of the char a in this line
 
-split
+2.分屏  
 :split
 :vssplit
 ctrl+w+dir(hijk)
@@ -21,35 +33,20 @@ ctrl+w+c: close split
 split when open files: vim -On files...
 		       vim -on files
 
-
-configuration
+3.配置  
 vim /etc/vimrc
 set cursorline: highlight current line
 hi CursorLine  cterm=NONE   ctermbg=darkred ctermfg=white
 hi CursorColumn cterm=NONE ctermbg=darkred ctermfg=white
 hi Commnet ctermfg=blue
 
-
+4.变化  
 gU: upper case
 gu:
-
 nJ: join next n line to lone line
-+: to the head of next line
--: to the head of previuse line
-
-ctrl+f: roll forward 
-ctrl+b: roll back
-ctrl+e: roll 
-crrl+y: roll
 
 
-nz<enter>: take n line to the top of screen
-H: move to top of the screen
-M: move to middle of the screen
-L: move to buttom of the screen
-
-
-replace
+5.替换  
 :%s/orig/new/g
 :n,$s/orig/new/g
 
