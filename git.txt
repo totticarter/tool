@@ -23,4 +23,17 @@ git commit -m "message"
   git pull 
   git pull origin master
 7.diff
-  git status
+  git status(after commit)
+8.show logs
+  git log
+9.remove files
+  1) rm -rf filename; git commit -m "message"; git push
+  2) git rm filename; git commit -m "message"; git push
+10.remove local and pull from remote
+  rm -rf file
+  git checkout ./
+11.branch
+  git branch(show local branch)
+  git branch -a(show all branch)
+  git checkout branchname (switch branch)
+  
