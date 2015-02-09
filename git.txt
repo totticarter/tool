@@ -37,3 +37,8 @@ git commit -m "message"
   git branch -a(show all branch)
   git checkout branchname (switch branch)
   
+12.stash
+ error: Your local changes to the following files would be overwritten by merge
+ git stash
+ git pull
+ 
