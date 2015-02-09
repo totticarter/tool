@@ -14,7 +14,13 @@ git commit -m ""
 git push
 
 4.commit
+git commit -m "message"
 
 5.fetch
   git fetch= fetch
   git pull = fetch+merge
+6.pull
+  git pull 
+  git pull origin master
+7.diff
+  git status
