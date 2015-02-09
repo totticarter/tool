@@ -1,0 +1,20 @@
+1.clone
+git clone url
+
+2.remote add
+git remote add origin url
+git push -u origin master
+
+3.show
+git remote show origin
+
+3.remame
+git mv name1 name2
+git commit -m ""
+git push
+
+4.commit
+
+5.fetch
+  git fetch= fetch
+  git pull = fetch+merge
