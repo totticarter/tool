@@ -51,3 +51,4 @@ nJ: join next n line to lone line
 :n,$s/orig/new/g
 
 
+6.
