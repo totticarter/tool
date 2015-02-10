@@ -39,6 +39,6 @@ git commit -m "message"
   
 12.stash
  error: Your local changes to the following files would be overwritten by merge
- git stash
+ git stash / git checkout -f
  git pull
  
