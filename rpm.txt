@@ -1,0 +1,5 @@
+1.install oracle java
+ rpm  -aq | grep jdk
+ rpm -aq | grep jre
+ rpm -qa | grep gcj
+ rpm -e -nodeps ***
