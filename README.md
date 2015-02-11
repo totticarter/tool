@@ -4,5 +4,5 @@
 3.cmake使用  
 
 nxsetup  --install --setup-nomachine-key
-
+export http_proxy="http://l00164768:pwd@proxycn2.huawei.com:8080"
 
