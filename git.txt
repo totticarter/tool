@@ -41,4 +41,9 @@ git commit -m "message"
  error: Your local changes to the following files would be overwritten by merge
  git stash / git checkout -f
  git pull
+13.proxy
+export http_proxy="http://l00164768:pwd@proxycn2.huawei.com:8080"
+export https_proxy="https://l00164768:pwd@proxycn2.huawei.com:8080"
 
+git config --global http.proxy="http://CHINA\\l00164768:pwd@proxycn2.huawei.com:8080"
+git config --global https.proxy="https://CHINA\\l00164768:pwd@proxycn2.huawei.com:8080"
