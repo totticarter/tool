@@ -52,4 +52,6 @@ git config --global http.proxy="http://CHINA\\l00164768:pwd@proxycn2.huawei.com:
 git config --global https.proxy="https://CHINA\\l00164768:pwd@proxycn2.huawei.com:8080"
 ~/.gitconfig
 14.rollback
+git commit --amend: to reset commit message
+git reset HEAD filename: to remove staged changes
 
