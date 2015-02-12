@@ -9,12 +9,13 @@ git push -u origin master
 git remote show origin
 
 3.remame
-git mv name1 name2
+git mv name1 name2: mv name1 name2 && git rm name1 && git add name2
 git commit -m ""
 git push
 
 4.commit
 git commit -m "message"
+git commit -a -m : git add && git commit -m
 
 5.fetch
   git fetch= fetch
@@ -50,3 +51,5 @@ export https_proxy="https://l00164768:pwd@proxycn2.huawei.com:8080"
 git config --global http.proxy="http://CHINA\\l00164768:pwd@proxycn2.huawei.com:8080"
 git config --global https.proxy="https://CHINA\\l00164768:pwd@proxycn2.huawei.com:8080"
 ~/.gitconfig
+14.rollback
+
