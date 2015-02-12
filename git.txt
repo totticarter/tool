@@ -47,3 +47,6 @@ export https_proxy="https://l00164768:pwd@proxycn2.huawei.com:8080"
 
 git config --global http.proxy="http://CHINA\\l00164768:pwd@proxycn2.huawei.com:8080"
 git config --global https.proxy="https://CHINA\\l00164768:pwd@proxycn2.huawei.com:8080"
+
+14.store passwd for push
+git config --global credential.helper store
