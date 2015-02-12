@@ -23,6 +23,8 @@ git commit -m "message"
   git pull 
   git pull origin master
 7.diff
+  git diff: show the diff between staged and work dir
+  git diff --cached: show the diff between stated and committed
   git status(after commit)
 8.show logs
   git log
@@ -47,3 +49,4 @@ export https_proxy="https://l00164768:pwd@proxycn2.huawei.com:8080"
 
 git config --global http.proxy="http://CHINA\\l00164768:pwd@proxycn2.huawei.com:8080"
 git config --global https.proxy="https://CHINA\\l00164768:pwd@proxycn2.huawei.com:8080"
+~/.gitconfig
