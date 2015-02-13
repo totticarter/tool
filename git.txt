@@ -57,7 +57,7 @@ git reset HEAD filename: to remove staged changes
 
 15.confict
 1) resolve confict mannully
-2) commit -am "message"
+2) commit -am "message" = commit add filename && git commit filename  -m "message"
 
 16.merge branch
 git checkout master
