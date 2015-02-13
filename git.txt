@@ -63,3 +63,6 @@ git reset HEAD filename: to remove staged changes
 git checkout master
 git merge branchname: if confict, do as 15
 
+
+17.store passwd for push
+git config --global credential.helper store
