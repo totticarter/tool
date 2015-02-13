@@ -55,3 +55,8 @@ git config --global https.proxy="https://CHINA\\l00164768:pwd@proxycn2.huawei.co
 git commit --amend: to reset commit message
 git reset HEAD filename: to remove staged changes
 
+15.confict
+1) resolve confict mannully
+2) commit -am "message"
+
+
