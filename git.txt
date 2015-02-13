@@ -54,6 +54,7 @@ git config --global https.proxy="https://CHINA\\l00164768:pwd@proxycn2.huawei.co
 14.rollback
 git commit --amend: to reset commit message
 git reset HEAD filename: to remove staged changes
+git reset --hard HEAD~n: rollback to last n commit
 
 15.confict
 1) resolve confict mannully
