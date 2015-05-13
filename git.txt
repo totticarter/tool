@@ -57,7 +57,8 @@ git reset HEAD filename: to remove staged changes
 git reset --hard HEAD~n: rollback to last n commit
 
 15.confict
-1) resolve confict mannully
+use git status, you will see some files has been merged automaclly, but some file cannot be merged because, then you should open the file and resolve the confict mannully
+1) resolve confict mannully, and then git add to denote the conflict has been refsolved
 2) commit -am "message" = commit add filename && git commit filename  -m "message"
 
 16.merge branch
