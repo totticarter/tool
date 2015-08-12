@@ -1,0 +1,14 @@
+1.network conf
+1)/etc/network/interfaces	   
+auto eth0
+iface eth0 inet static
+address 192.168.229.99
+gateway 192.168.228.1
+netmask 255.255.252.0
+dns-nameservers 210.21.196.6
+
+2)/etc/dhcp/dhclient.conf
+mark the syntax as comment using "#" on every line or simply remove every request name-server
+
+3) reboot
+
