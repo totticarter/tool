@@ -14,3 +14,9 @@
   2.1 install brew()
   2.2 chown the brew's owner to root
   2.3 brew search/install wget
+
+3.change terninal header
+  3.1 vim /etc/bashrc
+  3.2 chang W to w to shwo current work dir
+  3.3 rm u to remove the user name
+  3.4 chown hostname: sudo scutil --set HostName newname 
