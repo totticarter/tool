@@ -9,3 +9,8 @@
  1.3 ls
     $ vi ~/.bash_profile export CLICOLOR=1
       source ~/.bash_profile
+      
+2.install wget
+  2.1 install brew()
+  2.2 chown the brew's owner to root
+  2.3 brew search/install wget
