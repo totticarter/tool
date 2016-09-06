@@ -47,3 +47,16 @@ export https_proxy="https://l00164768:pwd@proxycn2.huawei.com:8080"
 
 git config --global http.proxy="http://CHINA\\l00164768:pwd@proxycn2.huawei.com:8080"
 git config --global https.proxy="https://CHINA\\l00164768:pwd@proxycn2.huawei.com:8080"
+
+13.解决confict
+after git pull,if confict exist, you will get the following message:
+Auto-merging presto-main/src/test/java/com/facebook/presto/operator/TestOrderByOperator.java
+CONFLICT (content): Merge conflict in presto-main/src/test/java/com/facebook/presto/operator/TestOrderByOperator.java
+Automatic merge failed; fix conflicts and then commit the result.
+
+you have to resolve the confict mannully:
+13.1 git diff confict-file-name
+13.2 edit the confict of the confict-file-name
+13.3 git commit [-i] confict-file-name -m "message"
+13.4 git push
+
